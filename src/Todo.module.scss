@@ -1,0 +1,21 @@
+.todoList {
+    padding-left: 30px;
+  }
+  
+  .todoItem {
+    margin-top: 1em;
+  }
+  
+  .label {
+    padding: 0.25em;
+    user-select: none;
+  }
+  
+  .count {
+    &::before {
+      content: "(";
+    }
+    &::after {
+      content: ")";
+    }
+  }
